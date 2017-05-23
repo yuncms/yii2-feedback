@@ -1,0 +1,28 @@
+{
+  "name": "yuncms/yii2-feedback",
+  "description": "feedback module",
+  "keywords": [
+    "feedback",
+    "yii2"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "source": "https://bitbucket.org/yuncms/yii2-feedback"
+  },
+  "authors": [
+    {
+      "name": "Xu TL",
+      "email": "xutongle@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0",
+    "yuncms/yii2-admin": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "yuncms\\feedback\\": ""
+    }
+  }
+}
